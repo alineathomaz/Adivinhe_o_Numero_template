@@ -1,25 +1,33 @@
-html, body
-{
-  height: 100%;
-  margin: 0;
-}
-
 body
 {
-background-image: url("background.jpg");
-background-size: cover;
-background-position: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    max-width:40%;
+    display: grid;
+    place-content: center;
+    margin-left: 23%; 
+    margin-right: auto;   
 }
-#logo{
-    width: 40px ;
+
+#logo
+{
+    width: 20px;
     opacity:40%
 }
 
-
 .login_div
 {
+    text-align: center;
     margin:10%;
-	background: rgba(255,255,255,0.95);
-    float: none;border-radius: 15px;
+	background: rgba(189, 222, 231, 0.95);
+    float: none;
+    border-radius: 15px;
     padding: 20px;  
+}
+
+.container
+{
+    width: 130%;
 }
